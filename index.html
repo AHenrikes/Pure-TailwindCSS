@@ -8,16 +8,16 @@
     <title>TailwindCSS</title>
 </head>
 
-<body class="bg-black text-white">
-    <header class="flex justify-between items-center pt-4 lg:pt-6 px-4 md:px-8">
+<body class="bg-black">
+    <header class="flex justify-between items-center pt-4 px-4 md:px-8 lg:pt-6">
         <div id="logoCtn" class="flex items-center gap-1">
             <img class="w-10" src="./assets/tailwindLogo.png" alt="tailwindLogo">
 
-            <p class="text-2xl font-semibold">tailwindcss</p>
+            <p class="text-2xl font-semibold text-white">tailwindcss</p>
         </div>
 
-        <div id="navCtn" class="flex items-center">
-            <button type="button" class="md:hidden">
+        <div class="flex items-center">
+            <button class="md:hidden" type="button">
                 <span class="flex items-center gap-3">
                     <svg class="w-6 h-6" viewbox="0 0 28 20" stroke="#64748b" stroke-width="3" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
@@ -29,9 +29,9 @@
                 </span>
             </button>
 
-            <div class="hidden md:flex gap-8">
+            <div class="hidden gap-8 md:flex">
                 <nav>
-                    <ul class="flex gap-x-8 font-bold text-sm text-[#e2e8f0] h-[24px]">
+                    <ul class="flex h-[24px] font-bold text-sm gap-x-8 text-[#e2e8f0]">
                         <li class="hover:text-[#38cbf8]"><a href="#">Docs</a></li>
                         <li class="hover:text-[#38bdf8]"><a href="#">Components</a></li>
                         <li class="hover:text-[#38bdf8]"><a href="#">Blog</a></li>
@@ -39,7 +39,7 @@
                     </ul>
                 </nav>
 
-                <div class="flex items-center gap-5 border-l-[1px] border-l-gray-700 pl-7">
+                <div class="flex items-center pl-7 border-l-[1px] gap-5 border-l-gray-700">
                     <button type="button">
                         <span>
                             <svg class="w-6" stroke-width="2.5" stroke="#64748b" viewbox="0 0 25 22" xmlns="http://www.w3.org/2000/svg">
@@ -58,5 +58,43 @@
         </div>
     </header>
 
+    <main class="absolute h-screen w-screen left-0 top-0 -z-10 bg-[#0b1121]">
+        <section class="grid px-4 py-20 pt-32 gap-7 mx-auto border-b-[1px] border-gray-700 border-opacity-50 lg:border-none lg:pt-48 lg:max-w-5xl">
+            <div class="grid gap-7">
+                <h1 class="text-center text-4xl font-extrabold text-white md:text-5xl lg:text-6xl">
+                    Rapidly build modern websites without ever leaving your HTML.
+                </h1>
+                
+                <p class="text-center text-xl text-[#94a3b8] md:mx-16 lg:mx-32">A utility-first CSS framewrok packed with classes like <strong class="text-[#38bdf8] font-normal">flex, pt-4, text-center</strong>, and <strong class="text-[#38bdf8] font-normal">rotate-90</strong> that can be composed to build any design, directly in your markup</p>
+            </div>
+            
+            <div class="grid gap-7 md:flex md:justify-center">
+
+                <button class="font-bold p-3 rounded-md text-white bg-[#0ea5e9] md:w-32 hover:bg-[#0eb3ff]">
+                    Get started
+                </button>
+
+                <button class="hidden items-center px-5 gap-2 rounded-md bg-gray-800 md:flex hover:bg-gray-700" for="search">
+                    <svg class="w-6 h-6" viewbox="0 0 28 20" stroke="#64748b" stroke-width="3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                    </svg>
+
+                    <div class="text-start w-40 text-gray-300 opacity-80">Quick search...</div>
+
+                    <p class="text-sm font-bold opacity-30">Ctrl K</p>
+                </button>
+            </div>
+        </section>
+
+        <div class="flex items-center pl-3 h-7 gap-1">
+              <div class="w-[10px] h-[10px] bg-[#475569] rounded-lg"></div>
+              <div class="w-[10px] h-[10px] bg-[#475569] rounded-lg"></div>
+              <div class="w-[10px] h-[10px] bg-[#475569] rounded-lg"></div>
+        </div>
+
+        <section class="border-t-[1px] border-gray-700 border-opacity-50">
+
+        </section>
+    </main>
 </body>
 </html>
