@@ -1,3 +1,8 @@
-<h1>https://henrikesa.github.io/Pure-TailwindCSS/</h1>
+<h1><a href='https://henrikesa.github.io/Pure-TailwindCSS/'>Live server</a></h1>
 
-<p>a Project that only focuses on TailwindCSS</p>
+a pet project to test my ability in creating a website just by using HTML and Tailwindcss
+
+Website inspiration from Tailwind own website.
+
+(Proud of the IDE)
+
