@@ -15,6 +15,14 @@ The landing page showcases the power and flexibility of Tailwind CSS as a utilit
   ```
 2. Navigate to the project directory:
   ```
-  cd Pure-Tailwindcss
+  cd Pure-TailwindCSS
   ```
-3. Open the `index.html`
+3. Open the `index.html` file in your preferred web browser.
+
+## Customization
+Feel free to customize the landing page according to your needs. Modify the HTML markup in `index.html` and update the utility classes.<br>
+You can leverage the extensive range of utility classes and components provided by TailwindCSS to achieve your desired design.
+
+## Acknowledgements
+* __Tailwind CSS__ - A utility-first CSS framework for rapid UI development.
+* __HTML__ - The standard markup language used for structuring web content.
