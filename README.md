@@ -1,4 +1,4 @@
-# [Tailwind CSS Landing Page](https://henrikesa.github.io/Pure-TailwindCSS/)
+# [Tailwind CSS Landing Page](https://ahenrikes.github.io/Pure-TailwindCSS/)
 This repository contains a pet project for creating a beautiful landing page using Tailwind CSS and HTML.<br>
 The landing page showcases the power and flexibility of Tailwind CSS as a utility-first CSS framework.
 
